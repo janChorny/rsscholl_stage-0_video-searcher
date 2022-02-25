@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="./assets/favicon.jpg" type="image/x-icon">
+	<link rel="stylesheet" href="./style.css">
+	<title>Video Searcher</title>
+</head>
+<body>
+	<div class="wrapper">
+
+		<header class="header">
+			<ul class="header__list">
+				<li class="header__item header__item--popular"><a href="#">Popular</a></li>
+				<li class="header__item header__item--rated"><a href="#">Top rated</a></li>
+				<li class="header__item header__item--latest"><a href="#">Latest</a></li>
+				<li class="header__item header__item--upcoming"><a href="#">Upcoming</a></li>
+			</ul>
+			<form id="form" action="#" class="header__form" method="get" onsubmit="return false;">
+				<span class="header__span"></span>
+				<input type="search" name="movie" id="search" form="form" class="header__search" placeholder="Search" value="" autofocus autocomplete="off">
+			</form>
+			<div class="hamburger">
+				<div class="line line1"></div>
+				<div class="line line2"></div>
+				<div class="line line3"></div>
+			</div>
+		</header>
+
+		<main id="main" class="main">
+		</main>
+
+		<footer class="footer">
+			<ul class="footer__list">
+				<li class="footer__item">
+					<a href="https://github.com/janChorny" class="footer__link-author">Github</a>
+				</li>
+				<li class="footer__item">2022</li>
+				<li class="footer__item">
+					<a href="https://rs.school/js-stage0/" class="footer__link-school">
+						<img src="./assets/rs_school_js.svg" alt="Rs logo" class="footer__img" width="150" height="80"> 
+					</a>
+				</li>
+			</ul>
+		</footer>
+
+	</div>
+	<script src="./script.js"></script>
+</body>
+</html>
